@@ -3,5 +3,5 @@
 # Устанавливаем зависимости
 npm install
 
-# Запускаем сервер на ts-node
-npx ts-node index.ts
+# Запускаем сервер через npm
+npm start
