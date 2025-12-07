@@ -11,7 +11,6 @@ declare module "http" {
     rawBody: unknown;
   }
 }
-
 app.use(
   express.json({
     verify: (req, _res, buf) => {
